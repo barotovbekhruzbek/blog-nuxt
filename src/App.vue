@@ -1,10 +1,13 @@
 <script setup>
 import {  RouterView } from 'vue-router'
-import Header from "./components/Header.vue"
+import Sidebar from "../src/components/Sidebar.vue"
+
 </script>
 
 <template>
-  <Header />
+<div class="sidebar-menu float-left">
+  <Sidebar />
+</div>
 
   <RouterView />
 </template>

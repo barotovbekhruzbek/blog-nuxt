@@ -18,7 +18,7 @@ const getWordsNumbers = (str) => (str.split('').length)
   fetchPosts()
 </script>
 <template>
- <div class="Home">
+ <div class="Home float-right">
  <main class="container mx-auto">
    <div v-for="post in store.posts" :key="post.id" class="PostItem border border-slate-700 mb-4 p-4 rounded-lg" @click="$router.push(`/post/${post.id}`)">
     
